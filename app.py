@@ -16,4 +16,10 @@ fig = px.line_3d(
     title="ROV Mission Trajectory"
 )
 
+fig.update_layout(
+    scene=dict(
+        zaxis=dict(autorange="reversed")
+    )
+)
+
 st.plotly_chart(fig)
