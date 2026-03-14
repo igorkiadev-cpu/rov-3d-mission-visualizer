@@ -6,7 +6,12 @@ st.title("ROV 3D Mission Path Visualizer")
 
 st.write("Interactive 3D visualization of ROV trajectory during mission.")
 
-data = pd.read_csv("data/mission_path.csv")
+uploaded_file = st.file_uploader("Upload mission CSV", type=["csv"])
+
+if uploaded_file is not None:
+    data = pd.read_csv(uploaded_file)
+else:
+    data = pd.read_csv("data/mission_path.csv")
 
 fig = px.line_3d(
     data,
