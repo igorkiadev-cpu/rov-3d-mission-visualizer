@@ -1,2 +1,16 @@
-# rov-3d-mission-visualizer
-3D visualization of ROV mission trajectory using Python and Plotly.
+# ROV 3D Mission Path Visualizer
+
+This project visualizes the trajectory of an ROV during a mission using a 3D interactive chart.
+
+## Technologies
+
+Python  
+Streamlit  
+Plotly  
+Pandas  
+
+## Features
+
+- 3D visualization of mission trajectory
+- Depth visualization
+- Interactive rotation and zoom
