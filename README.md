@@ -14,3 +14,5 @@ Pandas
 - 3D visualization of mission trajectory
 - Depth visualization
 - Interactive rotation and zoom
+
+  ![ROV 3D Mission](images/trajectory-3d.png)
