@@ -15,4 +15,4 @@ Pandas
 - Depth visualization
 - Interactive rotation and zoom
 
-  ![ROV 3D Mission](images/trajectory-3d.png)
+  ![ROV 3D Mission](trajectory-3d.png.PNG)
